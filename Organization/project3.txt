@@ -1,0 +1,122 @@
+Project #3 
+Tree 자료구조를 기반으로 한 조직도 프로그램을 작성하는 것입니다.
+
+ 
+
+https://yuliting95.wixsite.com/selab/blank-1 -> Assign Project #3 를 클릭하면 문제설명이 있습니다.
+
+
+채점 기준은 문제설명에 나와있는 테스트 케이스와 소스코드로 합니다.
+
+
+
+프로젝트 파일과 .exe파일 제출해주시면 됩니다.
+
+
+보고서 작성 안하셔도 됩니다.
+
+
+*****************************************************************************
+
+ 
+
+project #3
+
+ 
+
+In this assignment, Make Organization program based on Tree 
+
+
+
+go to the link, you can see the project description
+
+https://yuliting95.wixsite.com/selab/blank-1-> Assign Project #3
+
+ 
+
+
+Scoring criteria are the test cases and source code shown in the description
+
+ 
+
+Just submit project File
+
+
+
+*************************************************************************
+
+ 
+
+***********************************
+
+Preject 3 testcase
+
+***********************************
+
+==============================
+
+input
+
+==============================
+
+VonNeumann
+VonNeumann hires Tanenbaum
+VonNeumann hires Dijksta
+Tanenbaum hires Stallings
+Tanenbaum hires Silberschatz
+Stallings hires Knuth
+Stallings hires Hamming
+Stallings hires Huffman
+Print
+=============================
+
+output
+
+=============================
+
+VonNeumann
++Tanenbaum
+++Stallings
++++Knuth
++++Hamming
++++Huffman
+++Silberschatz
++Dijksta
+============================
+
+input
+
+============================
+
+Fire VonNeumann
+Fire nonperson
+nonperson hires nonper  
+Print
+
+============================
+
+output
+
+============================
+
+Tanenbaum
++Stallings
+++Knuth
++++Hamming
++++Huffman
+++Silberschatz
++Dijksta
+===========================
+
+Scoring
+
+===========================
+컴파일 에러(Compile Error) -15
+프로그램 실행도중 에러로 인한 종료(Exit when Program Running) -7
+다중트리 미사용(Multi Tree unused)  -6
+Fire, Hire Command Error -5~12
+대소문자(capital letter, small letter Error) -1
+
+소스코드(source code)
+
+===========================
